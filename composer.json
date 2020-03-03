@@ -1,5 +1,5 @@
 {
-    "name": "sivanov/laravel-guardpass",
+    "name": "techtell/laravel-guardpass",
     "authors": [
         {
             "name": "Stoil Ivanov",
@@ -9,7 +9,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Sivanov\\LaravelGuardPass\\": "src/"
+            "techtell\\LaravelGuardPass\\": "src/"
         },
         "classmap": [
             "tests/"
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sivanov\\LaravelGuardPass\\ServiceProvider"
+                "techtell\\LaravelGuardPass\\ServiceProvider"
             ]
         }
     }
