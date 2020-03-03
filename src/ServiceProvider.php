@@ -1,6 +1,6 @@
 <?php
 
-namespace Sivanov\LaravelGuardPass;
+namespace Techtell\LaravelGuardPass;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
@@ -15,7 +15,7 @@ class ServiceProvider extends IlluminateServiceProvider
     {
         include __DIR__ . '/routes.php';
 
-        app('router')->aliasMiddleware('filters', \Sivanov\LaravelGuardPass\Http\MiddleWare\Filters::class);
+        app('router')->aliasMiddleware('filters', \Techtell\LaravelGuardPass\Http\MiddleWare\Filters::class);
     }
 
     /**

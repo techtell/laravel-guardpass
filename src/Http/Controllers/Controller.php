@@ -1,6 +1,6 @@
 <?php
 
-namespace Sivanov\LaravelGuardPass\Http\Controllers;
+namespace Techtell\LaravelGuardPass\Http\Controllers;
 
 use Auth;
 use App\User;

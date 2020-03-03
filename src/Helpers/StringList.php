@@ -21,7 +21,7 @@
  *    Array; 
  */
 
-namespace Sivanov\LaravelGuardPass\Helpers;
+namespace Techtell\LaravelGuardPass\Helpers;
 
 class StringList
 {

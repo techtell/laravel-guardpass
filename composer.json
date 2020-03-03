@@ -11,7 +11,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "techtell\\LaravelGuardPass\\": "src/"
+            "Techtell\\LaravelGuardPass\\": "src/"
         },
         "classmap": [
             "tests/"
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "techtell\\LaravelGuardPass\\ServiceProvider"
+                "Techtell\\LaravelGuardPass\\ServiceProvider"
             ]
         }
     }

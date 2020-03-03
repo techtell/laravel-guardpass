@@ -1,10 +1,10 @@
 <?php
 
-namespace Sivanov\LaravelGuardPass\Http\Middleware;
+namespace Techtell\LaravelGuardPass\Http\Middleware;
 
 use Config;
 use Closure;
-use Sivanov\LaravelGuardPass\Traits\StringToArrayTrait;
+use Techtell\LaravelGuardPass\Traits\StringToArrayTrait;
 
 class StringToArray
 {
