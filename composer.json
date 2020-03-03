@@ -1,6 +1,7 @@
 {
     "name": "techtell/laravel-guardpass",
     "description": "A package that allows developers to change Authenticated person on the fly ",
+    "version": "0.5.2",
     "authors": [
         {
             "name": "Stoil Ivanov",
