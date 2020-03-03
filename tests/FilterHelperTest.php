@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use Sivanov\LaravelGuardPass\Traits\StringToArrayTrait;
+use Techtell\LaravelGuardPass\Traits\StringToArrayTrait;
 
 final class FilterHelperTest extends TestCase
 {

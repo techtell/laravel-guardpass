@@ -1,8 +1,8 @@
 <?php
 
-namespace Sivanov\LaravelGuardPass\Traits;
+namespace Techtell\LaravelGuardPass\Traits;
 
-use Sivanov\LaravelGuardPass\Helpers\StringList;
+use Techtell\LaravelGuardPass\Helpers\StringList;
 
 trait StringToArrayTrait
 {

@@ -1,7 +1,7 @@
 {
     "name": "techtell/laravel-guardpass",
     "description": "A package that allows developers to change Authenticated person on the fly",
-    "version": "0.5.3",
+    "license": "MIT",
     "authors": [
         {
             "name": "Stoil Ivanov",
@@ -11,7 +11,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "techtell\\LaravelGuardPass\\": "src/"
+            "Techtell\\LaravelGuardPass\\": "src/"
         },
         "classmap": [
             "tests/"
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "techtell\\LaravelGuardPass\\ServiceProvider"
+                "Techtell\\LaravelGuardPass\\ServiceProvider"
             ]
         }
     }
