@@ -11,7 +11,7 @@ Laravel Guard Pass requires [Laravel](https://laravel.com/) 5.5+ and PHP 7.1+ to
 Install by composer
 
 ```sh
-$ composer install --dev techtell/laravel-guardpass
+$ composer require --dev techtell/laravel-guardpass
 ```
 
 ### Usage
