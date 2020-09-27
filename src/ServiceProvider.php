@@ -26,7 +26,7 @@ class ServiceProvider extends IlluminateServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__. ' /config/guardpass.php', 'guardpass'
+            __DIR__. '/config/guardpass.php', 'guardpass'
         );
 
         $this->loadViewsFrom(__DIR__ . '/views', 'guardpass');
